@@ -23,7 +23,7 @@ std::string Bank::get_bank_name(){
     return f_bank_name;
 }
 
-bool check_id(std::string p_bank_name, int p_bank_id){
+bool Bank::check_id(std::string p_bank_name, int p_bank_id){
     int START_POINT = 1212121200;
     if(p_bank_id == START_POINT + p_bank_name.size()){
         return true;
