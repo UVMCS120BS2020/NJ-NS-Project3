@@ -16,7 +16,7 @@ class Person{
 private:
     std::string f_firstName;   //changed this up to more easily incorporate a middle name
     std::string f_lastName;    //same as above
-    OPT_string f_middleName;   //included this middle name as an optional because we not everyone has one
+    OPT_string f_middleName;   //included this middle name as an optional because not everyone has one
     OPT_string f_prefix;
     std::string f_birthday;
 
