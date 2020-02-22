@@ -16,7 +16,7 @@ Branch::Branch(std::string p_branch_name, std::string p_branch_manager, std::vec
 Branch::Branch(std::string p_branch_name, std::string p_branch_manager){
     std::string f_branch_name = p_branch_name;
     std::string f_branch_manager = p_branch_manager;
-    std::vector<Account> f_accounts = {};
+    std::vector<Account> f_accounts;
 }
 
 /* getters */

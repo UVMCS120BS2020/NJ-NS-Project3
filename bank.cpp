@@ -28,4 +28,5 @@ bool Bank::check_id(std::string p_bank_name, int p_bank_id){
     if(p_bank_id == START_POINT + p_bank_name.size()){
         return true;
     }
+    return false;   //added this to solve a compiler error
 }
